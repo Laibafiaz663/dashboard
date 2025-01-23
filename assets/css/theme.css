@@ -340,7 +340,31 @@ td {
     font-weight: 400;
 
 }
-/* media-query */
-@media screen {
+/* media-query */ 
+  /* Medium devices (desktops, less than 992px) */
+  @media (max-width: 991px) {
+    .main-wrapper aside {
+        width:3.25rem;
+    }
+    .main-wrapper aside .logo img {
+        display:none;
+    }
+    .main-wrapper .aside-content-wrapper {
+        transition: 0.5s linear all;
+        padding-left: 3.25rem;
+        margin-left: 0;
     
-}
+    }
+    aside.sm-hide{
+        transform: translateX(-100%);
+
+    }
+    .padding{
+        padding-left: 0 !important;
+    }
+  }
+  
+
+  
+ 
+  

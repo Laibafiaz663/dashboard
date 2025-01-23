@@ -25,6 +25,8 @@ let asidee=document.querySelector('.aside');
 toggler.addEventListener('click', function () {
     asidee.classList.toggle('hide');
     asidecontentwrapper.classList.toggle('margin');
+    asidee.classList.toggle('sm-hide');
+    asidecontentwrapper.classList.toggle('padding');
 
   
 
